@@ -1,0 +1,45 @@
+*{
+   
+}
+
+body{
+    background-color: black; 
+}
+
+.container-grid{
+    display: grid;
+    margin: 0 auto;
+}
+
+h1{
+    color: red;
+    font-size: 46px; 
+}
+p{
+    color: white;
+}
+
+.box{
+    background-color: antiquewhite;
+    border: 2px white solid;
+    position: relative;
+    padding-top: 100%;
+}
+
+.box.clicked{
+    background-color: blue;
+}
+
+.box.clicked-red{
+    background-color: rgb(255, 0, 0);
+}
+
+.box-interno{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+}
+
